@@ -69,10 +69,10 @@ function Project() {
             </div>
 
             <div className="buttons">
-              <a href="#" className="live">
+              <a href="#" className="live" onClick={() => window.open("https://photography-portfolio-phi.vercel.app", "_blank")}>
                 Live Demo
               </a>
-              <a href="#" className="github">
+              <a href="#" className="github" onClick={() => window.open("https://github.com/dineshstr0505-acc/photography-portfolio", "_blank")}>
                 GitHub
               </a>
             </div>
@@ -98,10 +98,10 @@ function Project() {
             </div>
 
             <div className="buttons">
-              <a href="#" className="live">
+              <a href="#" className="live" onClick={() => window.open("https://tourmates.vercel.app", "_blank")}>
                 Live Demo
               </a>
-              <a href="#" className="github">
+              <a href="#" className="github" onClick={() => window.open("https://github.com/dineshstr0505-acc/tourmates", "_blank")}>
                 GitHub
               </a>
             </div>
