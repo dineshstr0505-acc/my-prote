@@ -3,6 +3,9 @@ import hba from "./assets/hba.jpeg";
 import tourm from "./assets/tourm.jpeg"
 import typepic from "./assets/typepic.jpeg"
 import photo from "./assets/photo.jpeg"
+import kbmeat from "./assets/kbhero.jpeg"
+import job from "./assets/job.jpg"
+
 function Project() {
   return (
     <div className="projects" id="projects">
@@ -36,10 +39,10 @@ function Project() {
             </div>
 
             <div className="buttons">
-              <a href="#" className="live">
+              <a href="#" className="live" onClick={() => window.open("https://dineshkumarr.github.io/Hospital-Appointment-Booking/", "_blank")}>
                 Live Demo
               </a>
-              <a href="#" className="github">
+              <a href="#" className="github" onClick={() => window.open("https://github.com/dineshstr0505-acc/hospital-appointment-booking", "_blank")}>
                 GitHub
               </a>
             </div>
@@ -125,10 +128,71 @@ function Project() {
             </div>
 
             <div className="buttons">
-              <a href="#" className="live">
+              <a href="#" className="live" onClick={() => window.open("https://typing-speed-test-self-one.vercel.app", "_blank")}>
                 Live Demo
               </a>
-              <a href="#" className="github">
+              <a href="#" className="github" onClick={() => window.open("https://github.com/dineshstr0505-acc/typing-speed-test", "_blank")}>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+                {/* Project 5 */}
+        <div className="project-card">
+          <img src={job} alt="Job Portal" />
+
+          <div className="project-content">
+            <h3>Job Portal</h3>
+
+            <p>
+              A responsive job portal website where users can explore job
+              opportunities, search for jobs, and find suitable career
+              opportunities through a simple and user-friendly interface.
+            </p>
+
+            <div className="tech">
+              <span>React</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <div className="buttons">
+              <a href="#" className="live" onClick={() => window.open("https://job-portal-5o1o.vercel.app", "_blank")}>
+                Live Demo
+              </a>
+
+              <a href="#" className="github" onClick={() => window.open("https://github.com/dineshstr0505-acc/Job-Portal", "_blank")}>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Project 6 */}
+        <div className="project-card">
+          <img src={kbmeat} alt="KB Meat Stall" />
+
+          <div className="project-content">
+            <h3>KB Meat Stall</h3>
+
+            <p>
+              A responsive online meat shopping website where customers can
+              browse different meat products, explore categories, add items
+              to their cart, and enjoy a convenient shopping experience.
+            </p>
+
+            <div className="tech">
+              <span>React</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <div className="buttons">
+              <a href="#" className="live" onClick={() => window.open("https://meat-stall-2oe1.vercel.app", "_blank")}>
+                Live Demo
+              </a>
+
+              <a href="#" className="github" onClick={() => window.open("https://github.com/dineshstr0505-acc/meat-stall", "_blank")}>
                 GitHub
               </a>
             </div>

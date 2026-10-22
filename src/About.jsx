@@ -1,4 +1,4 @@
-import idpic2 from "./assets/idpic2.jpeg";
+import idpic from "./assets/idpic.jpeg";
 import './About.css'
 function About()
 {
@@ -7,7 +7,7 @@ function About()
          <section class="about" id="about">
     <div class="about-container">
         <div class="about-image">
-           <img src={idpic2} alt="profile-picture" />
+           <img src={idpic} alt="profile-picture" />
         </div>
 
         <div class="about-content">
