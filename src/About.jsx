@@ -35,7 +35,7 @@ function About()
 
                 <div>
                     <h3>Projects</h3>
-                    <p>10+ Completed</p>
+                    <p>6+ Completed</p>
                 </div>
 
                 <div>
